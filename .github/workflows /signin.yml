@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   signin:
-    name: Aliyun Signin
+    name: aaaaSignin
     runs-on: ubuntu-latest
     steps:
       - uses: FloodLin/test@main
