@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: FloodLin/test@main
         with:
+          GP_TOKEN: ${{ secrets.GP_TOKEN}}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           Mobile_No: ${{ secrets.Mobile }}
           province_Name: ${{ secrets.province }}
