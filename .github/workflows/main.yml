@@ -3,8 +3,8 @@ name: aaaaSignin
 on:
   schedule:
    # 每天国际时间 17:20 运行一次, 中国时间 01:20
-    - cron: '34 00 * * *'
-    - cron: '14 00 * * *'
+    - cron: '01 00 * * *'
+    - cron: '30 00 * * *'
   workflow_dispatch:
 jobs:
   signin:
